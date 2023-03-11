@@ -76,7 +76,7 @@ class HistoricalPricePageState extends State<HistoricalPricePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text("Click button to fetch historical price"),
+                          Text("Fetch historical price success, click button to fetch again"),
                           SizedBox(height: 30,),
                           InkWell(
                             radius: 8,

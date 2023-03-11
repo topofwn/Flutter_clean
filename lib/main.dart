@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clean/features/historical_price/presentation/page/historicalPricePage.dart';
+import 'injection_container.dart' as di;
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await di.init();
   runApp(MyApp());
 }
 
